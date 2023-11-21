@@ -1,5 +1,4 @@
 /* RESET */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,6 @@
 }
 
 /* HEADER */
-
 .header {
     padding-left: 24px;
     padding-bottom: 12px;
@@ -26,7 +24,6 @@
 }
 
 /* MAIN */
-
 .main-container {
     background-color: #f6f8f9;
     height: 1000px;
@@ -71,7 +68,6 @@
 }
 
 /* LIST */
-
 .todo-list {
     margin-bottom: 30px;
 }
@@ -115,8 +111,8 @@
 .list-marker {
     font-size: small;
 }
-/*  BANNERS */
 
+/*  BANNERS */
 .banner {
     font-size: small;
     border-radius: 15px;
