@@ -8,13 +8,42 @@
 </head>
 <body>
     <header class="header">
-        <img src="./img/Logo.png" alt="logo">
+        <img class="img-logo" src="./img/Logo.png" alt="logo">
         <h1 class="main-title">Toboolist</h1>
     </header>
     <main class="main-container">
             <div class="taskbar">
                 <span class="add-task">Add Task</span>
                 <span class="add-section">Add Section</span>
+            </div>
+
+            <div class="main-content">
+                <div class="todo-list">
+                    <h2 class="list-title"><span class="list-marker">&nabla;</span> New Task</h2>
+                    <ul class="main-list">
+                        <li><span class="check-list">&check;</span> Lorem, ipsum.</li>
+                    </ul>
+                </div>
+
+                <div class="todo-list">
+                    <h2 class="list-title"><span class="list-marker">&nabla;</span> Today</h2>
+                    <ul class="main-list">
+                        <li><span class="check-list">&check;</span> Lorem, ipsum dolor.</li>
+                        <li class="list-item"><span class="check-list">&check;</span> Lorem, ipsum dolor.</li>
+                        <li class="list-item"><span class="cross-list">&cross;</span> Lorem, ipsum dolor.</li>
+                        <li class="list-item"><span class="check-list">&check;</span> Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+
+                <div class="todo-list">
+                    <h2 class="list-title"><span class="list-marker">&nabla;</span> Upcoming</h2>
+                    <ul class="main-list">
+                        <li><span class="cross-list">&cross;</span> Lorem, ipsum dolor.</li>
+                        <li class="list-item"><span class="check-list">&check;</span> Lorem, ipsum dolor.</li>
+                        <li class="list-item"><span class="check-list">&check;</span> Lorem ipsum dolor sit amet.</li>
+                        <li class="list-item"><span class="check-list">&check;</span> Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
             </div>
     </main>
 </body>
