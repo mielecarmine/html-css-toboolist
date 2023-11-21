@@ -91,34 +91,62 @@
     padding-top: 20px;
 }
 
-.check-list {
-    border: 2px solid #8cd2c3;
+.entity-style {
     border-radius: 50%;
     font-size: 10px;
-    color: green;
     width: 20px;
     display: inline-block;
     height: 20px;
     text-align: center;
     margin-right: 5px;
+}
+
+.check-list {
+    border: 2px solid #8cd2c3;
+    color: green;
+}
+
+
+.cross-list {
+    border: 2px solid #ef908b;
+    color: red;
 }
 
 .list-marker {
     font-size: small;
 }
+/*  BANNERS */
 
-/* accorpa cross e check */
-.cross-list {
-    border: 2px solid #ef908b;
-    border-radius: 50%;
-    font-size: 10px;
-    color: red;
-    width: 20px;
-    display: inline-block;
-    height: 20px;
-    text-align: center;
-    margin-right: 5px;
+.banner {
+    font-size: small;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 10px;
 }
 
-/*  BANNERS */
+.editorial {
+    background-color: #44a9e9;
+}
+
+.q1-goals {
+    background-color: #9b71e3;
+}
+
+.recruiting {
+    background-color: #64bfa8;
+}
+
+.mobile {
+    background-color: #f29d32;
+}
+
+.website {
+    background-color: #d8629f;
+}
+
+.sales {
+    background-color: #b0c927;
+}
+
+
 
